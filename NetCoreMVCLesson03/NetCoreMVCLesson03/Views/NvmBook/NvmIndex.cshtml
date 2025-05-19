@@ -1,0 +1,33 @@
+﻿@model IEnumerable<NetCoreMVCLesson03.Models.NvmBook>
+
+@{
+    ViewData["Title"] = "List Book";
+}
+
+<h1>Thông tin các cuốn sách</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>BookId</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Images</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var nvmItem in Model)
+        {
+            <tr>
+                <td>@nvmItem.NvmId</td>
+                <td>@nvmItem.NvmTitle</td>
+                <td>@nvmItem.NvmDescription</td>
+                <td>
+                    <img src="~/images/@nvmItem.NvmImages" alt="@nvmItem.NvmTitle" width="100" />
+                </td>
+                <td>@nvmItem.NvmPrice.ToString("N0") đ</td>
+            </tr>
+        }
+    </tbody>
+</table>
