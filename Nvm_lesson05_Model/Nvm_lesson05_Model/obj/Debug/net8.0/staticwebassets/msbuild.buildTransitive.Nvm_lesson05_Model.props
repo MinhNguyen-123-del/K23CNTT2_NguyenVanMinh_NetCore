@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Nvm_lesson05_Model.props" />
+</Project>

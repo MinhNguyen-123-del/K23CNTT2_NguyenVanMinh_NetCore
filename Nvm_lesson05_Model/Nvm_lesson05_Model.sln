@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nvm_lesson05_Model", "Nvm_lesson05_Model\Nvm_lesson05_Model.csproj", "{2352A994-EEDA-443E-9A9B-D8391B21DF2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2352A994-EEDA-443E-9A9B-D8391B21DF2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2352A994-EEDA-443E-9A9B-D8391B21DF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2352A994-EEDA-443E-9A9B-D8391B21DF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2352A994-EEDA-443E-9A9B-D8391B21DF2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BC4D190-968D-4D3F-B850-0BF1A171C70C}
+	EndGlobalSection
+EndGlobal
