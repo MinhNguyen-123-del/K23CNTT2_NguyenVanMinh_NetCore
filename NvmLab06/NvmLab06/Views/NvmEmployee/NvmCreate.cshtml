@@ -1,0 +1,38 @@
+﻿@model NvmLab06.Models.NvmEmployee
+@{
+    ViewData["Title"] = "Them nhan vien moi";
+}
+
+<div class="container mt-4">
+    <h2 class="mt-4">@ViewData["Title"]</h2>
+    <form asp-action="NvmCreate" method="post">
+        <div class="form-group">
+            <label>Họ tên</label>
+            <input asp-for="NvmName" class="form-control" />
+            <span asp-validation-for="NvmName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label>Ngày sinh</label>
+            <input asp-for="NvmBirthday" type="date" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input asp-for="NvmEmail" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>SĐT</label>
+            <input asp-for="NvmPhone" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Lương</label>
+            <input asp-for="NvmSalary" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label>Đang làm việc?</label>
+            <input asp-for="NvmStatus" type="checkbox" />
+        </div>
+        <button type="submit" class="btn btn-success">Lưu</button>
+        <a asp-action="NvmIndex" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>
+

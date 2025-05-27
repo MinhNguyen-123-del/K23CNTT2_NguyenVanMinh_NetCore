@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "Danh sach sinh vien";
+}
+
+@model List<NvmLab06.Models.NvmEmployee>
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-end-centrer">
+        <h2 class="text-center mt-4">Danh sach sinh vien</h2> 
+        <a href="/NvmEmployee/NvmCreate" class="btn btn-primary">Them Moi</a>
+ >   </div>
+   
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tên</th>
+            <th>Ngày sinh</th>
+            <th>Email</th>
+            <th>Điện thoại</th>
+            <th>Lương</th>
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var nvmEmp in Model)
+        {
+            <tr>
+                    <td>@nvmEmp.NvmId</td>
+                    <td>@nvmEmp.NvmName</td>
+                    <td>@nvmEmp.NvmBirthday.ToString("dd/MM/yyyy")</td>
+                    <td>@nvmEmp.NvmEmail</td>
+                    <td>@nvmEmp.NvmPhone</td>
+                    <td>@nvmEmp.NvmSalary.ToString("N0")</td>
+                    <td>@(nvmEmp.NvmStatus ? "Đang làm" : "Đã nghỉ")</td>
+                    <td>
+                        <a asp-action="NvmEdit" asp-route-id="@nvmEmp.NvmId" class="btn btn-warning">Sửa</a>
+                    </td>
+                    <td>
+                        <a asp-action="NvmDelete" asp-route-id="@nvmEmp.NvmId" class="btn btn-danger"
+                           onclick="return confirm('Bạn có chắc muốn xoá?');">Xoá</a>
+                    </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+</div>

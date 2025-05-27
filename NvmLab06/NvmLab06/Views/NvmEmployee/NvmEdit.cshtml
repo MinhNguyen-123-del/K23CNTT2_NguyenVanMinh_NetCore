@@ -1,0 +1,33 @@
+﻿@model NvmLab06.Models.NvmEmployee
+
+<h2>Sửa thông tin nhân viên</h2>
+
+<form asp-action="NvmEdit" method="post">
+    <input type="hidden" asp-for="NvmId" />
+    <div class="form-group">
+        <label>Họ tên</label>
+        <input asp-for="NvmName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Ngày sinh</label>
+        <input asp-for="NvmBirthday" type="date" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input asp-for="NvmEmail" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>SĐT</label>
+        <input asp-for="NvmPhone" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Lương</label>
+        <input asp-for="NvmSalary" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Trạng thái</label>
+        <input asp-for="NvmStatus" type="checkbox" />
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+    <a asp-action="NvmIndex" class="btn btn-secondary">Quay lại</a>
+</form>
