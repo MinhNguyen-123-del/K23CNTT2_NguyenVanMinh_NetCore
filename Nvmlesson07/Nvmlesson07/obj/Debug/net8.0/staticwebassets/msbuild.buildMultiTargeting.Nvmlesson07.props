@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Nvmlesson07.props" />
+</Project>

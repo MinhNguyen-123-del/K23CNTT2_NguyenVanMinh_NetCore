@@ -1,0 +1,60 @@
+﻿@model Nvmlesson07.Models.NvmEmployee
+
+@{
+    ViewData["Title"] = "NvmDetails";
+}
+
+<h1>NvmDetails</h1>
+
+<div>
+    <h4>NvmEmployee</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvmId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvmId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvmName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvmName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvmBirthday)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvmBirthday)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvmEmail)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvmEmail)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvmPhone)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvmPhone)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvmSalary)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvmSalary)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NvmStatus)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NvmStatus)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

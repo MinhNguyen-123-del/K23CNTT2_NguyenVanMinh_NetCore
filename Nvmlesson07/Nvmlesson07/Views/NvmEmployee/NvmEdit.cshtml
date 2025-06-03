@@ -1,0 +1,59 @@
+﻿@model Nvmlesson07.Models.NvmEmployee
+
+@{
+    ViewData["Title"] = "Sửa thông tin sinh viên";
+}
+
+<h1>NvmEdit</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NvmEdit" asp-route-id="@Model.NvmId">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NvmId" class="control-label"></label>
+                <input asp-for="NvmId" class="form-control" />
+                <span asp-validation-for="NvmId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvmName" class="control-label"></label>
+                <input asp-for="NvmName" class="form-control" />
+                <span asp-validation-for="NvmName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvmBirthday" class="control-label"></label>
+                <input asp-for="NvmBirthday" class="form-control" />
+                <span asp-validation-for="NvmBirthday" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvmEmail" class="control-label"></label>
+                <input asp-for="NvmEmail" class="form-control" />
+                <span asp-validation-for="NvmEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvmPhone" class="control-label"></label>
+                <input asp-for="NvmPhone" class="form-control" />
+                <span asp-validation-for="NvmPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NvmSalary" class="control-label"></label>
+                <input asp-for="NvmSalary" class="form-control" />
+                <span asp-validation-for="NvmSalary" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="NvmStatus" /> @Html.DisplayNameFor(model => model.NvmStatus)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="NvmIndex">Back to List</a>
+</div>
+
