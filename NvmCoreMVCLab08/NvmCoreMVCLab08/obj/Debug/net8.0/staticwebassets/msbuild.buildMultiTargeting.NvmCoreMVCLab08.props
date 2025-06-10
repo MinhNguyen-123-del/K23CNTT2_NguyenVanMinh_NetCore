@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NvmCoreMVCLab08.props" />
+</Project>

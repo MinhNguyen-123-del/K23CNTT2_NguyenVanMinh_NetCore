@@ -76,7 +76,7 @@
               "RelativeDocumentMoniker": "Nvmlesson07\\Views\\NvmEmployee\\NvmDetails.cshtml",
               "ToolTip": "D:\\Tai-Lieu-hoc\\K23.Net\\Nvmlesson07\\Nvmlesson07\\Views\\NvmEmployee\\NvmDetails.cshtml",
               "RelativeToolTip": "Nvmlesson07\\Views\\NvmEmployee\\NvmDetails.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-03T04:36:01.461Z",
               "EditorCaption": ""
@@ -91,8 +91,7 @@
               "RelativeToolTip": "Nvmlesson07\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T04:16:07.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T04:16:07.635Z"
             },
             {
               "$type": "Document",
@@ -104,8 +103,7 @@
               "RelativeToolTip": "Nvmlesson07\\Views\\NvmEmployee\\NvmEdit.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T04:06:23.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T04:06:23.668Z"
             },
             {
               "$type": "Document",
@@ -117,8 +115,7 @@
               "RelativeToolTip": "Nvmlesson07\\Views\\NvmEmployee\\NvmCreate.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T03:34:48.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T03:34:48.2Z"
             },
             {
               "$type": "Document",
@@ -130,8 +127,7 @@
               "RelativeToolTip": "Nvmlesson07\\Views\\NvmEmployee\\NvmIndex.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T03:26:50.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T03:26:50.262Z"
             },
             {
               "$type": "Document",
@@ -143,8 +139,7 @@
               "RelativeToolTip": "Nvmlesson07\\Controllers\\NvmEmployeeController.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAAwEUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T03:17:35.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T03:17:35.032Z"
             },
             {
               "$type": "Document",
@@ -156,8 +151,7 @@
               "RelativeToolTip": "Nvmlesson07\\Models\\NvmEmployee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T03:10:52.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T03:10:52.945Z"
             },
             {
               "$type": "Document",
@@ -169,8 +163,7 @@
               "RelativeToolTip": "Nvmlesson07\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T03:08:18.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T03:08:18.124Z"
             },
             {
               "$type": "Document",
@@ -182,8 +175,7 @@
               "RelativeToolTip": "Nvmlesson07\\Views\\NvmHome\\NvmIndex.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T03:00:56.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T03:00:56.908Z"
             },
             {
               "$type": "Document",
@@ -195,8 +187,7 @@
               "RelativeToolTip": "Nvmlesson07\\Controllers\\NvmHomeController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T02:59:58.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T02:59:58.063Z"
             },
             {
               "$type": "Document",
@@ -208,8 +199,7 @@
               "RelativeToolTip": "Nvmlesson07\\Views\\Shared\\_NvmNavbar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T02:57:07.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T02:57:07.91Z"
             },
             {
               "$type": "Document",
@@ -221,8 +211,7 @@
               "RelativeToolTip": "Nvmlesson07\\Views\\NvmHome\\NvmAbout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T03:02:20.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T03:02:20.66Z"
             },
             {
               "$type": "Document",
@@ -234,8 +223,7 @@
               "RelativeToolTip": "Nvmlesson07\\Views\\Shared\\_NvmLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T02:55:01.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T02:55:01.382Z"
             },
             {
               "$type": "Document",
@@ -247,8 +235,7 @@
               "RelativeToolTip": "Nvmlesson07\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T02:54:38.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T02:54:38.165Z"
             }
           ]
         }

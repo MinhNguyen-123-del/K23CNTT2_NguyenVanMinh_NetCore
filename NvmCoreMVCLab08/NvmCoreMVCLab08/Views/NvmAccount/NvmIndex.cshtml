@@ -1,0 +1,89 @@
+﻿@model IEnumerable<NvmCoreMVCLab08.Models.NvmEmployee>
+
+@{
+    ViewData["Title"] = "NvmIndex";
+}
+
+<h1>NvmIndex</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvmFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvmEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvmPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvmAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvmAvatar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvmBirthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvmGender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvmPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NvmFaceBook)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvmFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvmEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvmPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvmAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvmAvatar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvmBirthday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvmGender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvmPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NvmFaceBook)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
